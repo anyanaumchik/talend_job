@@ -1,1 +1,1 @@
-web: sh /Applications/TOSDI-7.3.1/testJob/testJob_run.sh
+web: java $JAVA_OPTS -jar testjob_0_1.jar $JAVA_OPTS
